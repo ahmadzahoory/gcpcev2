@@ -6,8 +6,8 @@ sudo apt-get install -y unzip
 sudo systemctl restart apache2.service
 cd /var/www/html/
 sudo rm index.html
-sudo wget https://github.com/ahmadzahoory/gcpcev2/raw/main/lab-09-01-code-A.zip
-sudo unzip lab-09-01-code-A.zip
+sudo wget https://github.com/ahmadzahoory/gcpcev2/raw/main/lab-09-01-code-a.zip
+sudo unzip lab-09-01-code-a.zip
 # Create user and set password
 useradd -m -s /bin/bash gcpadmin
 usermod -aG sudo gcpadmin
