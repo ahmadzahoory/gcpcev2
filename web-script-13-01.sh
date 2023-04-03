@@ -5,8 +5,8 @@ apt-get install -y unzip
 systemctl restart apache2.service
 cd /var/www/html/ 
 rm index.html
-wget https://github.com/ahmadzahoory/gcpcev2/raw/main/lab-14-01-code.zip
-unzip lab-14-01-code.zip
+wget https://github.com/ahmadzahoory/gcpcev2/raw/main/lab-13-01-code.zip
+unzip lab-13-01-code.zip
 useradd -m -s /bin/bash gcpadmin
 usermod -aG sudo gcpadmin
 echo "gcpadmin:lab-password" | chpasswd
