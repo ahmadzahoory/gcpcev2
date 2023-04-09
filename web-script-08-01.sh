@@ -2,6 +2,7 @@
 apt-get -y update
 apt-get install -y apache2
 apt-get install -y unzip
+apt-get install -y php7.4
 systemctl restart apache2.service
 cd /var/www/html/ 
 rm index.html
