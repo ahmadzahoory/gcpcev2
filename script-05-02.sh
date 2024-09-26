@@ -1,3 +1,5 @@
+#!/bin/bash
+useradd -m -s /bin/bash gcpadmin
 usermod -aG sudo gcpadmin
 echo "gcpadmin:lab-password" | chpasswd
 sed -i 's|[#]*KbdInteractiveAuthentication no|#KbdInteractiveAuthentication no|g' /etc/ssh/sshd_config
